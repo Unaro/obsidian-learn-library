@@ -146,12 +146,12 @@ SORT frequency ASC
 
 ## 🔗 Связанные файлы
 
+- [[README]] — 📚 Главная библиотека
 - [[00_Dashboard]] — Главный экран подготовки
 - [[00_КАТАЛОГ_ТЕМ]] — Каталог тем
-- [[Собеседование/Cards/README]] — Руководство по карточкам
+- [[Cards/README]] — Руководство по карточкам
 - [[07_CLI_Cheat_Sheets]] — Шпаргалки CLI
 - [[08_Dataview_Queries]] — Dataview запросы
-- [[98_Obsidian_Setup_Guide]] — Настройка Obsidian
 
 ---
 

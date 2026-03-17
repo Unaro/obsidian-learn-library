@@ -4,20 +4,7 @@
 
 ---
 
-## 📁 Файлы
-
-| №   | Файл                             | Темы                        | Часов |
-| --- | -------------------------------- | --------------------------- | ----- |
-| 01  | [[01_JavaScript_Core_EventLoop]] | JavaScript Core, Event Loop | 8     |
-| 02  | [[02_Advanced_JS_LiveCoding]]    | Advanced JS, Live-Coding    | 6     |
-| 03  | [[03_NodeJS_Streams_Network]]    | Node.js Streams, Network    | 8     |
-| 04  | [[04_NodeJS_Threads_Queues]]     | Queues, Microservices       | 10    |
-
-**Всего:** 4 темы, ~32 часа
-
----
-
-## 📊 Прогресс
+## 📊 Файлы
 
 ```dataview
 TABLE status, priority, difficulty

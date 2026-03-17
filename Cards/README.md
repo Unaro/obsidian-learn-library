@@ -236,11 +236,11 @@ GROUP BY category
 
 ## 🔗 Связанные файлы
 
+- [[README]] — 📚 Главная библиотека
 - [[101_Cards_Index]] — Главная страница карточек
 - [[Templates/Flashcard_Template]] — Шаблон карточки
 - [[07_CLI_Cheat_Sheets]] — Шпаргалки CLI
 - [[08_Dataview_Queries]] — Dataview запросы
-- [[98_Obsidian_Setup_Guide]] — Настройка Obsidian
 - [[00_Dashboard]] — Dashboard подготовки
 - [[00_КАТАЛОГ_ТЕМ]] — Каталог тем
 

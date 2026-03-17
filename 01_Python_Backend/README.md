@@ -4,19 +4,7 @@
 
 ---
 
-## 📁 Файлы
-
-| № | Файл | Темы | Часов |
-|---|------|------|-------|
-| 01 | [[01_Python_Core]] | Python Core | 8 |
-| 02 | [[02_Django_REST_API]] | Django & REST API | 10 |
-| 03 | [[03_Web_Servers_Quality]] | Web-серверы, качество | 6 |
-
-**Всего:** 3 темы, ~24 часа
-
----
-
-## 📊 Прогресс
+## 📊 Файлы
 
 ```dataview
 TABLE status, priority, difficulty

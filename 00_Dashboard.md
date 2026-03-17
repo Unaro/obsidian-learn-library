@@ -192,9 +192,9 @@ dv.paragraph(`\`${bar}\` ${percent}%`);
 
 | Файл | Описание |
 |------|----------|
+| 📄 [[README]] | 📚 Главная библиотека |
 | 📄 [[07_CLI_Cheat_Sheets]] | Шпаргалки по Linux, Git, Docker, kubectl |
 | 📄 [[08_Dataview_Queries]] | Dataview запросы |
-| 📄 [[98_Obsidian_Setup_Guide]] | Настройка Obsidian |
 | 📄 [[101_Cards_Index]] | База карточек (50+ вопросов) |
 
 ---
