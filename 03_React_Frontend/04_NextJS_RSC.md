@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: React
+type: topic
+priority: high
+status: completed
+tags: [react, rsc, ssr, hydration, streaming, patterns]
+difficulty: advanced
+estimated_hours: 8
+---
+
 # React Server Components vs SSR: Полное сравнение
 
 > **Назначение:** Глубокое понимание различий между RSC и SSR, гидратация, потоковая передача данных. Включает архитектурные паттерны и лучшие практики.

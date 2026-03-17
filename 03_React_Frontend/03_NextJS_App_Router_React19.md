@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: React
+type: topic
+priority: high
+status: completed
+tags: [nextjs, app-router, react19, caching, server-actions, hooks]
+difficulty: advanced
+estimated_hours: 10
+---
+
 # Next.js App Router & React 19: Полное руководство
 
 > **Назначение:** Продвинутые возможности Next.js 14+ и React 19: кэширование, Server Actions, новые хуки. Включает практические примеры и лучшие практики.

@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Databases
+type: topic
+priority: high
+status: completed
+tags: [sql, postgresql, nosql, acid, indexes, orm, drizzle, indexeddb]
+difficulty: intermediate
+estimated_hours: 10
+---
+
 # Базы Данных: SQL, ORM и Архитектура
 
 > **Назначение:** Фундаментальные и продвинутые концепции баз данных: реляционные и NoSQL БД, SQL запросы, индексы, транзакции, ORM. Включает практические примеры и оптимизацию.

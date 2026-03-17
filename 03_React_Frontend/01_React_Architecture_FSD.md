@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: React
+type: topic
+priority: high
+status: completed
+tags: [react, rsc, fsd, zustand, ast, architecture]
+difficulty: advanced
+estimated_hours: 10
+---
+
 # React Архитектура: FSD, RSC и Управление состоянием
 
 > **Назначение:** Современные подходы к архитектуре React-приложений: Feature-Sliced Design, React Server Components, продвинутое управление состоянием. Включает практические примеры и лучшие практики.

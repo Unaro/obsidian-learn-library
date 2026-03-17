@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: JavaScript
+type: topic
+priority: medium
+status: completed
+tags: [nodejs, queues, bullmq, microservices, event-driven, saga]
+difficulty: advanced
+estimated_hours: 10
+---
+
 # Node.js: Очереди, Микросервисы и Распределённые системы
 
 > **Назначение:** Продвинутая архитектура Node.js: очереди сообщений, микросервисы, Event-Driven архитектура. Включает паттерны распределённых систем и лучшие практики.

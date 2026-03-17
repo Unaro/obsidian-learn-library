@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: JavaScript
+type: topic
+priority: high
+status: completed
+tags: [javascript, debounce, throttle, promise, events, memory]
+difficulty: advanced
+estimated_hours: 6
+---
+
 # Advanced JavaScript & Live-Coding
 
 > **Назначение:** Продвинутые концепции JavaScript с практическими задачами. Включает live-coding паттерны, глубокое копирование, Promise и работу с памятью.

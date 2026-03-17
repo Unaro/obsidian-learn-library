@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Infrastructure
+type: topic
+priority: high
+status: completed
+tags: [docker, git, http, rest, jwt, cors, solid, mvc]
+difficulty: intermediate
+estimated_hours: 10
+---
+
 # Инфраструктура, Сети и DevOps
 
 > **Назначение:** Docker, контейнеризация, Git, HTTP/REST, JWT, архитектурные принципы. Включает практические примеры деплоя и лучшие практики.

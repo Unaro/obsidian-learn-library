@@ -1,33 +1,37 @@
-# ⚛️ React & Frontend Architecture
+# ⚛️ React & Frontend
 
 > **Назначение:** React, Next.js, FSD, архитектура UI
 
 ---
 
-## 📁 Файлы категории
+## 📁 Файлы
 
-| № | Файл | Описание |
-|---|------|----------|
-| 01 | [[01_React_Architecture_FSD]] | RSC, FSD, Zustand, AST-анализ |
-| 02 | [[02_React_Internals_Optimization]] | Virtual DOM, Fiber, HOC, Portals |
-| 03 | [[03_NextJS_App_Router_React19]] | Кэширование, Server Actions, хуки React 19 |
-| 04 | [[04_NextJS_RSC]] | RSC vs SSR, гидратация |
+| № | Файл | Темы | Часов |
+|---|------|------|-------|
+| 01 | [[01_React_Architecture_FSD]] | React Architecture, FSD | 10 |
+| 02 | [[02_React_Internals_Optimization]] | React Internals | 8 |
+| 03 | [[03_NextJS_App_Router_React19]] | Next.js App Router, React 19 | 10 |
+| 04 | [[04_NextJS_RSC]] | RSC vs SSR | 8 |
+
+**Всего:** 4 темы, ~36 часов
+
+---
+
+## 📊 Прогресс
+
+```dataview
+TABLE status, priority, difficulty
+FROM "Собеседование/03_React_Frontend"
+WHERE type = "topic"
+```
 
 ---
 
 ## 🔗 Навигация
 
-- [[00_КАТАЛОГ_ТЕМ]] — Главный каталог
-- [[03_React_Frontend_INDEX]] — Развёрнутый индекс по категории
-- [[99_ШПАРГАЛКА_ВОПРОСЫ]] — Шпаргалка с вопросами
-
----
-
-## 🔗 Связанные категории
-
-- [[02_JavaScript_NodeJS/01_JavaScript_Core_EventLoop]] — JavaScript Core
-- [[05_Infrastructure/03_TypeScript_Security_Testing]] — TypeScript
-- [[04_Databases/02_Database_Optimization_N1]] — Core Web Vitals
+- [[00_Dashboard]] — Главный экран
+- [[00_КАТАЛОГ_ТЕМ]] — Каталог
+- [[101_Cards_Index]] — База карточек
 
 ---
 

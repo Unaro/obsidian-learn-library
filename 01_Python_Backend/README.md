@@ -1,33 +1,37 @@
-# 🐍 Python & Backend
+# 🐍 Python Backend
 
-> **Назначение:** Python, Django, REST API, серверная разработка
+> **Назначение:** Python, Django, DRF, серверная разработка
 
 ---
 
-## 📁 Файлы категории
+## 📁 Файлы
 
-| № | Файл | Описание |
-|---|------|----------|
-| 01 | [[01_Python_Core]] | Типы данных, функции, ООП, память, GIL |
-| 02 | [[02_Django_REST_API]] | MVT, ORM, Middleware, DRF, сериализаторы |
-| 03 | [[03_Web_Servers_Quality]] | WSGI/ASGI, кэширование, WebSockets, TDD |
+| № | Файл | Темы | Часов |
+|---|------|------|-------|
+| 01 | [[01_Python_Core]] | Python Core | 8 |
+| 02 | [[02_Django_REST_API]] | Django & REST API | 10 |
+| 03 | [[03_Web_Servers_Quality]] | Web-серверы, качество | 6 |
+
+**Всего:** 3 темы, ~24 часа
+
+---
+
+## 📊 Прогресс
+
+```dataview
+TABLE status, priority, difficulty
+FROM "Собеседование/01_Python_Backend"
+WHERE type = "topic"
+```
 
 ---
 
 ## 🔗 Навигация
 
-- [[00_КАТАЛОГ_ТЕМ]] — Главный каталог
-- [[01_Python_Backend_INDEX]] — Развёрнутый индекс по категории
-- [[99_ШПАРГАЛКА_ВОПРОСЫ]] — Шпаргалка с вопросами
+- [[00_Dashboard]] — Главный экран
+- [[00_КАТАЛОГ_ТЕМ]] — Каталог
+- [[101_Cards_Index]] — База карточек
 
 ---
 
-## 🔗 Связанные категории
-
-- [[04_Databases/01_Databases_ORM_SQL]] — Базы данных и ORM
-- [[05_Infrastructure/01_Infrastructure_Networks_Docker]] — Docker, сети
-- [[05_Infrastructure/02_System_Analysis_BPMN_UML]] — Системный анализ
-
----
-
-*Категория: Python & Backend*
+*Категория: Python Backend*

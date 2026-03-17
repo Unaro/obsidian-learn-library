@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Python
+type: topic
+priority: high
+status: completed
+tags: [django, rest, orm, api, authentication]
+difficulty: intermediate
+estimated_hours: 10
+---
+
 # Django & REST API: Полное руководство
 
 > **Назначение:** Архитектура Django, ORM, оптимизация запросов, Django REST Framework. Включает продвинутые техники и лучшие практики.

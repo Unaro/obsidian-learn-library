@@ -1,33 +1,37 @@
-# 🌐 Инфраструктура & System Design
+# 🌐 Infrastructure
 
 > **Назначение:** Docker, сети, системный анализ, паттерны
 
 ---
 
-## 📁 Файлы категории
+## 📁 Файлы
 
-| № | Файл | Описание |
-|---|------|----------|
-| 01 | [[01_Infrastructure_Networks_Docker]] | Docker, Git, HTTP, REST, JWT, SOLID |
-| 02 | [[02_System_Analysis_BPMN_UML]] | BPMN, IDEF0, UML, SDLC, AI |
-| 03 | [[03_TypeScript_Security_Testing]] | TypeScript, OWASP, тестирование |
+| № | Файл | Темы | Часов |
+|---|------|------|-------|
+| 01 | [[01_Infrastructure_Networks_Docker]] | Docker, Git, HTTP | 10 |
+| 02 | [[02_System_Analysis_BPMN_UML]] | BPMN, IDEF0, UML | 6 |
+| 03 | [[03_TypeScript_Security_Testing]] | TypeScript, Security | 8 |
+
+**Всего:** 3 темы, ~24 часа
+
+---
+
+## 📊 Прогресс
+
+```dataview
+TABLE status, priority, difficulty
+FROM "Собеседование/05_Infrastructure"
+WHERE type = "topic"
+```
 
 ---
 
 ## 🔗 Навигация
 
-- [[00_КАТАЛОГ_ТЕМ]] — Главный каталог
-- [[05_Infrastructure_SystemDesign_INDEX]] — Развёрнутый индекс по категории
-- [[99_ШПАРГАЛКА_ВОПРОСЫ]] — Шпаргалка с вопросами
+- [[00_Dashboard]] — Главный экран
+- [[00_КАТАЛОГ_ТЕМ]] — Каталог
+- [[101_Cards_Index]] — База карточек
 
 ---
 
-## 🔗 Связанные категории
-
-- [[01_Python_Backend/01_Python_Core]] — Python GIL, multiprocessing
-- [[02_JavaScript_NodeJS/04_NodeJS_Threads_Queues]] — Микросервисы
-- [[06_Soft_Skills/01_Agile_Scrum]] — Agile, Scrum
-
----
-
-*Категория: Инфраструктура & System Design*
+*Категория: Infrastructure*

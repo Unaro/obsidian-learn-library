@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Databases
+type: topic
+priority: high
+status: completed
+tags: [sql, optimization, n-plus-one, indexes, transactions, core-web-vitals]
+difficulty: advanced
+estimated_hours: 8
+---
+
 # Оптимизация Баз Данных и Производительность
 
 > **Назначение:** Продвинутая оптимизация запросов, проблема N+1, индексы B-Tree, транзакции. Включает Core Web Vitals и frontend-оптимизацию.

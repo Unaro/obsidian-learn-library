@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Python
+type: topic
+priority: medium
+status: completed
+tags: [django, wsgi, asgi, caching, websockets, tdd]
+difficulty: advanced
+estimated_hours: 6
+---
+
 # Web-серверы, Real-time и Качество кода
 
 > **Назначение:** WSGI/ASGI, кэширование, WebSockets, Django Channels, методологии разработки. Включает продвинутые техники деплоя и оптимизации.
@@ -13,7 +25,7 @@
 │              Django Cache Framework                     │
 ├─────────────────────────────────────────────────────────┤
 │                                                         │
-│  View → Cache Middleware → Cache Backend → Storage     │
+│  View → Cache Middleware → Cache Backend → Storage      │
 │           ↓                            ↑                │
 │      Template Cache ← Low-level API ←──┘                │
 │                                                         │

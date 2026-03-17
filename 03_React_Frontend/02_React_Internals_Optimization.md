@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: React
+type: topic
+priority: high
+status: completed
+tags: [react, fiber, virtual-dom, hoc, portals, optimization]
+difficulty: advanced
+estimated_hours: 8
+---
+
 # React Internals & Оптимизация производительности
 
 > **Назначение:** Глубокое понимание внутренней архитектуры React: Fiber, Reconciliation, рендеринг. Продвинутые техники оптимизации производительности.

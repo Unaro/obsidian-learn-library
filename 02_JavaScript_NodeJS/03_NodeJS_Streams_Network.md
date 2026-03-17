@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: JavaScript
+type: topic
+priority: high
+status: completed
+tags: [nodejs, streams, worker-threads, websockets, backpressure]
+difficulty: advanced
+estimated_hours: 8
+---
+
 # Node.js: Streams, Worker Threads & Network
 
 > **Назначение:** Продвинутые возможности Node.js: потоки данных, многопоточность, сетевые протоколы. Включает практические примеры и паттерны архитектуры.

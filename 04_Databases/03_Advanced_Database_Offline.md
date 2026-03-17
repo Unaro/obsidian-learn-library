@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Databases
+type: topic
+priority: medium
+status: completed
+tags: [postgresql, jsonb, cte, offline-first, indexeddb, patterns, star-method]
+difficulty: advanced
+estimated_hours: 8
+---
+
 # Продвинутые Базы Данных и Оффлайн-архитектура
 
 > **Назначение:** Продвинутые возможности PostgreSQL (JSONB, CTE), оффлайн-архитектура с синхронизацией, паттерны проектирования. Включает практические примеры и метод STAR для собеседований.

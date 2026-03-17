@@ -1,8 +1,20 @@
-# JavaScript Core & Event Loop: Полное руководство
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: JavaScript
+type: topic
+priority: high
+status: completed
+tags: [javascript, event-loop, closure, prototype, this]
+difficulty: intermediate
+estimated_hours: 8
+---
 
 > **Назначение:** Глубокое понимание JavaScript: движок, Event Loop, замыкания, прототипы, асинхронность. Включает сравнение с Python и частые вопросы на собеседованиях.
 
 ---
+
+# JavaScript Core & Event Loop: Полное руководство
 
 ## 1. Движок JavaScript и среда выполнения
 

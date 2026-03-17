@@ -1,3 +1,15 @@
+---
+created: 2026-03-17
+updated: 2026-03-17
+category: Infrastructure
+type: topic
+priority: high
+status: completed
+tags: [typescript, generics, owasp, xss, sqli, testing, jest, playwright]
+difficulty: intermediate
+estimated_hours: 8
+---
+
 # TypeScript, Безопасность и Тестирование
 
 > **Назначение:** Продвинутый TypeScript, веб-безопасность (OWASP), пирамида тестирования. Включает практические примеры защиты и лучшие практики.
