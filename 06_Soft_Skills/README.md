@@ -8,7 +8,7 @@
 
 ```dataview
 TABLE status, priority, difficulty
-FROM "Собеседование/06_Soft_Skills"
+FROM "obsidian-learn-library/06_Soft_Skills"
 WHERE type = "topic"
 ```
 

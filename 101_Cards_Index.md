@@ -19,7 +19,7 @@ tags: [interview, flashcards, questions, database]
 ## 📊 Статистика базы
 
 ```dataviewjs
-const cards = dv.pages('"Собеседование/Cards"');
+const cards = dv.pages('"obsidian-learn-library/Cards"');
 const byCategory = cards.groupBy(c => c.category);
 const byDifficulty = cards.groupBy(c => c.difficulty);
 const byStatus = cards.groupBy(c => c.status);
@@ -65,7 +65,7 @@ TABLE without id
     category as "Категория",
     difficulty as "Сложность",
     date(now) - date(next_review) as "Просрочено дней"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE status = "learning" AND next_review <= date(now)
 SORT next_review ASC
 LIMIT 20
@@ -81,7 +81,7 @@ TABLE without id
     category as "Категория",
     difficulty as "Сложность",
     frequency as "Частота"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE status = "new"
 SORT frequency ASC, difficulty ASC
 LIMIT 10
@@ -120,7 +120,7 @@ TABLE
     length(rows) as "Всего",
     length(filter(rows, (r) => r.status = "learned")) as "✅",
     round(100 * length(filter(rows, (r) => r.status = "learned")) / length(rows), 1) + "%" as "Прогресс"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE difficulty != null
 GROUP BY difficulty
 SORT difficulty ASC
@@ -136,7 +136,7 @@ TABLE
     length(rows) as "Всего",
     length(filter(rows, (r) => r.status = "learned")) as "✅",
     round(100 * length(filter(rows, (r) => r.status = "learned")) / length(rows), 1) + "%" as "Прогресс"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE frequency != null
 GROUP BY frequency
 SORT frequency ASC

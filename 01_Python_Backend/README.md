@@ -8,7 +8,7 @@
 
 ```dataview
 TABLE status, priority, difficulty
-FROM "Собеседование/01_Python_Backend"
+FROM "obsidian-learn-library/01_Python_Backend"
 WHERE type = "topic"
 ```
 

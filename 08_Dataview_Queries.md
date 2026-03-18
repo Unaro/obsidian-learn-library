@@ -34,7 +34,7 @@ TABLE
     status as "Статус",
     priority as "Приоритет",
     difficulty as "Сложность"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE type = "topic"
 SORT category ASC, priority ASC
 ```
@@ -49,7 +49,7 @@ TABLE
     category as "Категория",
     priority as "Приоритет",
     estimated_hours as "Часов"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE status != "completed" AND type = "topic"
 SORT priority ASC
 ```
@@ -64,7 +64,7 @@ TABLE
     category as "Категория",
     completed_date as "Завершено",
     date(now) - date(completed_date) as "Дней назад"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE status = "completed" AND completed_date != null
 SORT completed_date DESC
 LIMIT 10
@@ -80,7 +80,7 @@ TABLE
     category as "Категория",
     completed_date as "Завершено",
     date(now) - date(completed_date) as "Дней назад"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE status = "completed" AND completed_date != null
 WHERE date(now) - date(completed_date) > 14
 SORT completed_date ASC
@@ -96,7 +96,7 @@ TABLE
     length(rows) as "Всего",
     length(filter(rows, (r) => r.status = "completed")) as "Завершено",
     round(100 * length(filter(rows, (r) => r.status = "completed")) / length(rows), 1) + "%" as "Прогресс"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE type = "topic"
 GROUP BY category
 ```
@@ -110,7 +110,7 @@ TABLE
     priority as "Приоритет",
     length(rows) as "Количество",
     length(filter(rows, (r) => r.status = "completed")) as "Завершено"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE type = "topic" AND priority != null
 GROUP BY priority
 SORT priority ASC
@@ -126,7 +126,7 @@ TABLE
     length(rows) as "Количество",
     length(filter(rows, (r) => r.status = "completed")) as "Завершено",
     round(100 * length(filter(rows, (r) => r.status = "completed")) / length(rows), 1) + "%" as "Прогресс"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE type = "topic" AND difficulty != null
 GROUP BY difficulty
 SORT difficulty ASC
@@ -142,7 +142,7 @@ TABLE
     category as "Категория",
     updated as "Обновлено",
     status as "Статус"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE updated != null AND type = "topic"
 SORT updated DESC
 LIMIT 10
@@ -157,7 +157,7 @@ TABLE
     file.link as "Тема",
     category as "Категория",
     file.folder as "Папка"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE status = null AND type = "topic"
 SORT file.folder ASC
 ```
@@ -168,7 +168,7 @@ SORT file.folder ASC
 ### Прогресс бар по категориям
 
 ```dataviewjs
-const categories = dv.pages('"Собеседование"')
+const categories = dv.pages('"obsidian-learn-library"')
     .where(p => p.type === 'topic')
     .groupBy(p => p.category);
 
@@ -190,7 +190,7 @@ dv.table(
 ```dataviewjs
 const today = dv.date('now');
 
-const topics = dv.pages('"Собеседование"')
+const topics = dv.pages('"obsidian-learn-library"')
     .where(p => p.status === 'in_progress')
     .sort(p => p.priority, 'asc');
 
@@ -214,7 +214,7 @@ if (topics.length > 0) {
 ### Карточки для повторения (Spaced Repetition)
 
 ```dataviewjs
-const completed = dv.pages('"Собеседование"')
+const completed = dv.pages('"obsidian-learn-library"')
     .where(p => p.status === 'completed' && p.completed_date != null);
 
 const forReview = completed.where(p => {
@@ -242,7 +242,7 @@ if (forReview.length > 0) {
 ### Визуализация прогресса
 
 ```dataviewjs
-const categories = dv.pages('"Собеседование"')
+const categories = dv.pages('"obsidian-learn-library"')
     .where(p => p.type === 'topic')
     .groupBy(p => p.category);
 
@@ -272,7 +272,7 @@ for (let group of categories) {
 
 ```dataview
 TABLE file.link as "Тема", priority as "Приоритет", estimated_hours as "Часов"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE status = "in_progress"
 LIMIT 3
 ```
@@ -281,7 +281,7 @@ LIMIT 3
 
 ```dataview
 TABLE file.link as "Тема", date(now) - date(completed_date) as "Дней назад"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE status = "completed" AND completed_date != null
 WHERE date(now) - date(completed_date) >= 7 AND date(now) - date(completed_date) <= 14
 ```
@@ -290,7 +290,7 @@ WHERE date(now) - date(completed_date) >= 7 AND date(now) - date(completed_date)
 
 ```dataview
 TABLE file.link as "Тема", category as "Категория"
-FROM "Собеседование"
+FROM "obsidian-learn-library"
 WHERE completed_date = date(now)
 ```
 ---

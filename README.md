@@ -42,7 +42,7 @@
 ## 📁 Структура
 
 ```
-Собеседование/
+obsidian-learn-library/
 │
 ├── 📄 00_Dashboard.md              # Главный экран
 ├── 📄 00_КАТАЛОГ_ТЕМ.md            # Каталог тем
@@ -134,7 +134,7 @@ TABLE
     category as "Категория",
     length(rows) as "Всего",
     length(filter(rows, (r) => r.status = "learned")) as "✅"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 GROUP BY category
 ```
 

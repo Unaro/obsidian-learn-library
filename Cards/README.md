@@ -166,7 +166,7 @@ frequency: high
 **Новые карточки:**
 ```dataview
 TABLE file.link, difficulty, frequency
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE status = "new"
 SORT frequency ASC
 LIMIT 10
@@ -175,7 +175,7 @@ LIMIT 10
 **Для повторения:**
 ```dataview
 TABLE file.link, date(now) - date(next_review) as "Просрочено дней"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE status = "learning" AND next_review <= date(now)
 SORT next_review ASC
 ```
@@ -183,7 +183,7 @@ SORT next_review ASC
 **Выученные:**
 ```dataview
 TABLE file.link, next_review, difficulty
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 WHERE status = "learned"
 SORT next_review ASC
 LIMIT 10
@@ -199,7 +199,7 @@ TABLE
     length(filter(rows, (r) => r.status = "learned")) as "✅",
     length(filter(rows, (r) => r.status = "learning")) as "🔄",
     length(filter(rows, (r) => r.status = "new")) as "🆕"
-FROM "Собеседование/Cards"
+FROM "obsidian-learn-library/Cards"
 GROUP BY category
 ```
 
